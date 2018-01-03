@@ -1,0 +1,46 @@
+body{
+  font-family: arial;
+  margin: auto;
+  text-align: center;
+  background-color: #cc99ff;
+}
+
+svg{
+  margin: auto;
+  display: block;
+  background-color: lightblue;
+  border-radius: 3px;
+}
+
+.country{
+  fill: #efefef;
+  stroke: black;
+  vector-effect: non-scaling-stroke;
+}
+
+.meteorite{
+  fill: red;
+  fill-opacity: 0.3;
+}
+
+.tooltip{
+  padding: 2px 5px;
+  background-color:
+    grey;
+  position: absolute;
+  border-radius: 5px;
+  font-family: arial;
+  text-align: left;
+}
+
+#zoomReset{
+  margin: 10px 0px;
+}
+
+p{
+  margin-top: 0px;
+}
+h1{
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
